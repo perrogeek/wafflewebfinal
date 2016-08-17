@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#232222;}
+	.st3{fill:#141212;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:none;}
+	.st6{font-family:'MyriadPro-Bold';}
+	.st7{font-size:36px;}
+	.st8{fill:#69E3FF;}
+</style>
+<g id="Layer_1" class="st0">
+	<g id="XMLID_101_" class="st1">
+		<g id="XMLID_99_">
+			<path id="XMLID_217_" class="st2" d="M149.5,239c0,0,166.1-97.9,118.3-199c-12.6-26.7-71.8-63.3-118.3,0"/>
+			<path id="XMLID_206_" class="st3" d="M150.5,239c0,0-166.1-97.9-118.3-199c12.6-26.7,71.8-63.3,118.3,0"/>
+		</g>
+		<g id="XMLID_203_">
+			<path id="XMLID_204_" class="st4" d="M255.2,49.5c2.4,4.2,3.6,8.7,3.6,13.6c0,4.9-1.2,9.5-3.6,13.6c-2.4,4.2-5.7,7.5-9.9,9.9
+				c-4.2,2.4-8.7,3.6-13.6,3.6s-9.5-1.2-13.6-3.6c-4.2-2.4-7.5-5.7-9.9-9.9c-2.4-4.2-3.6-8.7-3.6-13.6c0-4.9,1.2-9.5,3.6-13.6
+				c2.4-4.2,5.7-7.5,9.9-9.9c4.2-2.4,8.7-3.6,13.6-3.6s9.5,1.2,13.6,3.6C249.4,42.1,252.7,45.4,255.2,49.5z M247.5,65.4v-4.5
+				c0-0.6-0.2-1.1-0.7-1.6c-0.5-0.4-1-0.7-1.6-0.7H218c-0.6,0-1.1,0.2-1.6,0.7c-0.4,0.4-0.7,1-0.7,1.6v4.5c0,0.6,0.2,1.1,0.7,1.6
+				c0.4,0.4,1,0.7,1.6,0.7h27.2c0.6,0,1.1-0.2,1.6-0.7C247.3,66.6,247.5,66.1,247.5,65.4z"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_2">
+	<rect id="XMLID_1_" y="270.2" class="st5" width="300" height="32.8"/>
+	<text id="XMLID_2_" transform="matrix(1 0 0 1 122.5503 295.75)" class="st6 st7">“X”</text>
+</g>
+<g id="Layer_3">
+	<g id="XMLID_271_">
+		<g id="XMLID_295_">
+			
+				<ellipse id="XMLID_296_" transform="matrix(-0.9923 -0.124 0.124 -0.9923 283.2221 269.6241)" class="st8" cx="150" cy="126" rx="120.4" ry="116.4"/>
+		</g>
+		<g id="XMLID_299_">
+			<path id="XMLID_300_" class="st4" d="M74.4,207.3l59-84L78.8,45.8H113l24.8,37.9c4.7,7.2,8.4,13.2,11.3,18.1
+				c4.5-6.7,8.6-12.6,12.3-17.8l27.2-38.2h32.7l-55.8,76l60.1,85.5H192l-33.2-50.2l-8.8-13.5l-42.4,63.7H74.4z"/>
+		</g>
+	</g>
+</g>
+</svg>

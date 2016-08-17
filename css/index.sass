@@ -1,0 +1,367 @@
+
+$rosa_mex: #E2B6F3
+$cafe: #402C1F
+$mq-xs: "(max-width: 750px)"
+$mq-sm: "(min-width: 750px) and (max-width: 970px)"
+$mq-md: "(min-width: 970px) and (max-width: 1170px)"
+$mq-lg: "(min-width: 1170px)"
+.parallax1
+	width: 100%
+	background-size: cover
+	background-attachment: fixed
+	background-position: center center
+.parallax1
+	min-height: 600px
+	background-image: url(../imagenes/parallax.jpg)
+.titulo
+	font-family: 'kgbrokenvesselssketch'
+	font-size: 7.5rem	
+	color: white
+	font-weigth:lighter
+	width: 100%
+	@media #{$mq-xs}
+		font-size: 6.5rem
+		margin-top: 1rem
+.subtitulo
+	width: 100%
+	@media #{$mq-xs}
+		margin: 0 auto
+	span	
+		font-family: 'kgbrokenvesselssketch'
+		font-size: 2.5rem	
+		color: $rosa_mex
+		font-weigth:normal
+		@media #{$mq-xs}
+			width: 50%
+			font-size: 2rem
+header
+	background-color: #221F1F
+	width: 100%
+	margin: 0 auto
+	background-image: url(../imagenes/fondo1.jpg)	
+#id_menu_principal
+	width: 90%
+	background-color: #221F1F
+	position: fixed
+	margin: 0 5%
+	z-index: 2
+	#ligas_menu
+		list-style: none
+		color: white
+		list-style: none
+		display: flex
+		justify-content: space-around
+		li 
+		padding: 0.2rem 0
+		flex-wrap: wrap
+		a 
+			text-transform: uppercase
+			color: white
+			text-decoration: none
+			// border: 5px solid red
+body
+	#ACERCA_DE
+		background-image: url(../imagenes/fondo1.jpg)
+		margin: 0 auto
+		padding-top: 3.5rem
+		padding-bottom: 2rem
+		#info_acerca_de
+			width: 80%
+			margin: 0 auto
+			.text_1
+				width: 100%
+				text-align: justify
+			@media #{$mq-xs}
+				width: 90%			
+				.text_1
+					text-align: justify	
+					width: 100%
+			.columnaA,.columnaB
+				display: flex
+				align-items: center
+				flex-wrap: nowrap
+				@media #{$mq-xs}
+					flex-wrap: wrap
+				#cola1
+					flex: 1 25%
+					@media #{$mq-xs}
+						flex: 1 100%
+						margin: 0 auto	
+						text-align: center
+				#cola2
+					flex: 2 75%
+					.text_2
+					text-align: justify
+					@media #{$mq-xs}
+						text-align: justify
+				#colb1
+					flex: 1 75%
+					.text_3
+						text-align: justify
+				#colb2
+					flex: 2 25% 
+					@media #{$mq-xs}
+						flex: 1 100%
+						margin: 0 auto	
+						text-align: center
+			// #prueba
+			// 	display: flex
+			// 	align-items: center
+			// 	border: 5px solid red
+			// 	#col1a
+			// 		flex: 1 25%
+			// 		img 
+			// 			width: 100%
+			// 	#col2a
+			// 		flex: 2 75% 
+			// 	#col1b
+			// 		flex: 1 75%
+			// 		img 
+			// 			width: 100%
+			// 	#col2b
+			// 		flex: 2 25% 
+	#MENU 
+		background-color: #EA742A
+		.frase
+			h2
+				text-align: center
+				padding: 0
+				margin: 0
+				padding-bottom: 2rem
+				color: $cafe
+		.text_col2
+			font-family: 'kgbrokenvesselssketch'
+			font-size: 7.5rem	
+			color: $cafe
+			font-weigth:lighter
+			text-align: center
+			margin: 0 auto
+			padding: 0
+			margin-bottom: 100px
+			@media #{$mq-xs}
+				margin-bottom: 0px
+	#menu_section
+		width: 100%
+		display: flex
+		justify-content: space-around
+		align-items: center
+		flex-flow: row nowrap
+		@media #{$mq-xs}
+			flex-flow: row wrap
+		@media #{$mq-sm}
+			flex-flow: row wrap
+
+		#art_col1,#art_col2,#art_col3
+			flex: 1 33.33%
+			display: flex
+			justify-content: center
+			align-items: flex-start
+			margin 0 auto
+			flex-flow: column wrap
+			@media #{$mq-sm}
+				flex: 1 100%
+			h2
+				text-align: center
+				margin: 0 auto
+				margin-top: 1rem
+				margin-bottom: 2rem
+				color: $cafe
+			.menu_imagen
+				margin: 0 auto
+				flex: 1 50%
+				img
+					width: 100%
+				@media #{$mq-xs}
+					width: 370px
+					height: 345px
+				@media #{$mq-sm}
+					width: 90%
+					height: auto
+				@media #{$mq-md}
+					width: 325px
+					height: 300px
+				@media #{$mq-lg}
+					width: 325px
+					height: 300px
+			h3
+				margin-left: 50px
+				color: $cafe
+			.text_general
+				color: #1C313E
+				margin: 0 50px
+				text-align: justify
+	.frase
+		margin-top: 2rem
+	#VIDA
+		background-color: #F2DD77
+		width: 100%
+		display: flex
+		justify-content: space-around
+		flex-flow: row wrap
+		.item_vida
+			margin: 5rem 0
+			@media #{$mq-xs}
+				margin: 0 0
+			@media #{$mq-sm}
+				margin: 0 0
+		h2
+			text-align: center
+			margin: 0 auto
+			margin-top: 0.5rem
+			margin-bottom: 2rem
+			color: #B25723
+	#COMENTARIOS
+		background-color: #50CCC9
+		margin: 0
+		display: flex
+		flex-flow: row wrap
+		.contenedor_coment
+			border: 5px solid red
+			display: flex
+			margin: 2rem 1rem 2rem 1rem
+			width: 45%
+			align-items: center
+			@media #{$mq-xs}
+				width: 100%
+			@media #{$mq-sm}
+				width: 80%
+			.img_coment
+				border: 5px solid blue
+				margin: 0
+				img
+					width: 100%
+				@media #{$mq-xs}
+					width: 20%
+					height: auto
+				@media #{$mq-sm}
+					width: 20%
+				@media #{$mq-lg}
+					width: 20%
+			.cuerpo_coment
+				border: 5px solid black
+				padding: 1.5rem 0				
+				display: flex
+				flex-flow: column wrap
+				position: relative
+				width: 80%
+				padding: 0px
+				-webkit-border-radius: 0px
+				-moz-border-radius: 0px
+				border-radius: 0px
+				margin: 0 0 0 50px
+				background: #FFFFFF
+				@media #{$mq-xs}
+					width: 100%
+					height: auto
+				&:after 			
+					content: ""
+					position: absolute
+					border-style: solid
+					border-width: 12px 43px 12px 0
+					border-color: transparent #FFFFFF
+					display: block
+					width: 0
+					z-index: 1
+					margin-top: -12px
+					left: -43px
+					top: 58%
+				&:before
+					content: ""
+					position: absolute
+					border-style: solid
+					border-width: 16px 47px 16px 0
+					border-color: transparent #000000
+					display: block
+					width: 0
+					z-index: 0
+					margin-top: -16px
+					left: -52px
+					top: 58%
+				.text_coment
+					//border: 5px solid orange
+					text-align: justify
+					padding: 1rem
+				.info_coment
+					//border: 5px solid #7F007F
+					display: flex
+					justify-content: space-between
+					width: 100%
+		#boton
+			display: flex
+			@media #{$mq-xs}
+				margin: 0 auto
+				margin-bottom: 2rem
+			.btn
+				color: #FFF
+				background: #cb4e4e
+				padding: 25px 80px
+				white-space: nowrap
+				-webkit-transition: all 0.2s ease-in-out
+				-ms-transition: all 0.2s ease-in-out
+				-moz-transition: all 0.2s ease-in-out
+				-o-transition: all 0.2s ease-in-out
+				transition: all 0.2s ease-in-out
+				border-radius: 0 0 5px 5px
+				cursor: pointer
+				text-transform: uppercase
+				box-shadow: 0 6px #ab3c3c
+				letter-spacing: 1px
+				font-weight: 700
+				border: 3px solid #cb4e4e
+			.btn:hover
+				background: #E55858
+			.btn:active
+				-webkit-box-shadow: 0px 2px 0px #84261a
+				-moz-box-shadow: 0px 2px 0px #84261a
+				box-shadow: 0px 2px 0px #84261a
+				top: 17px		
+	#VIDEO
+		width: 100%
+		/* .coment 			
+			position: relative
+			width: 500px
+			height: 120px
+			padding: 0px
+			background: #FFFFFF
+			-webkit-border-radius: 0px
+			-moz-border-radius: 0px
+			border-radius: 0px
+			margin: 2rem 10rem
+			border: #000000 solid 5px
+			text-align: justify
+			&:after 			
+				content: ""
+				position: absolute
+				border-style: solid
+				border-width: 12px 43px 12px 0
+				border-color: transparent #FFFFFF
+				display: block
+				width: 0
+				z-index: 1
+				margin-top: -12px
+				left: -43px
+				top: 58%
+			&:before
+				content: ""
+				position: absolute
+				border-style: solid
+				border-width: 16px 47px 16px 0
+				border-color: transparent #000000
+				display: block
+				width: 0
+				z-index: 0
+				margin-top: -16px
+				left: -52px
+				top: 58%
+			.text_coment
+				margin: 1rem 2rem 0 2rem
+				font-style: oblique */
+	#CONTACTO
+		width: 100%
+		img
+			width: 100%
+			
+// media query
+
+
+			

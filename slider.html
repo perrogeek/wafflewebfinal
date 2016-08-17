@@ -1,0 +1,207 @@
+
+<style type="text/css">
+
+.label-container {
+  -webkit-flex-basis: 100%;
+  display: -webkit-flex;
+  -webkit-flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.label {
+  color: grey;
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  max-width: 3rem;
+  -webkit-tap-highlight-color: transparent;  /*gets rid of black flash on click of track*/
+}
+	.slider{
+    width: 600px;
+    overflow: hidden;
+    padding: 5px;
+  }
+  .slider2{
+    width: 100%;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+  }
+  .slider input{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 600px;
+    height: 6px;
+    border-radius: 2px; 
+    border: 1px solid #ddd;
+    outline: none; 
+    box-shadow: 0 1px 1px #fff, inset 0 1px 1px #ddd;
+  }
+   .slider2 input{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 40px; 
+    border: 1px solid #ddd;
+    outline: none; 
+    box-shadow: 0 1px 1px #fff, inset 0 1px 1px #ddd;
+  }
+
+  .slider input::-webkit-slider-thumb{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 2px #999;
+    position: relative;
+  }
+  .slider2 input::-webkit-slider-thumb{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 2px #999;
+    position: relative;
+  }
+  .slider input::-webkit-slider-thumb:before{
+    content: "";
+    height: 10px;
+    position: absolute;
+    width: 600px;
+    background-color: #00FF00;
+    right: 20px;
+    top: 6px;
+  }
+  .slider2 input::-webkit-slider-thumb:before{
+    content: "";
+    height: 10px;
+    position: absolute;
+    width: 100%;
+    background-color: #00FF00;
+    right: 20px;
+    top: 6px;
+  }
+  .timeline{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 20px;
+    padding-top: 10px;
+    counter-reset: step;
+  }
+  .timeline2{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 20px;
+    padding-top: 10px;
+    counter-reset: step;
+  }
+  .timeline li{
+    width: 142px;
+    float: left;
+    height: 10px;
+    position: relative;
+    margin-bottom: 15px;    
+    box-sizing: border-box;
+  }
+  .timeline2 li{
+    width: 16.6%;
+    float: left;
+    height: 10px;
+    position: relative;
+    margin-bottom: 15px;    
+    box-sizing: border-box;
+  }
+  .timeline li:nth-child(1){    
+    padding-left: 11px;   
+  }
+  .timeline li:nth-child(2){    
+    padding-left: 14px;   
+  }
+  .timeline li:nth-child(3){    
+    padding-left: 17px;   
+  }
+  .timeline li:nth-child(4){    
+    padding-left: 20px;   
+  }
+  .timeline li:nth-child(5){    
+    padding-left: 23px;   
+  }
+  .timeline li::after{
+    content: '';
+    width: 3px;
+    height: 15px;
+    background: #999;
+    position: absolute;
+  }
+  .timeline2 li::after{
+    content: '';
+    width: 3px;
+    height: 15px;
+    background: #999;
+    position: absolute;
+  }
+  .timeline2 li::before{
+    content: counter(step);
+    counter-increment: step ;
+    font-size: 12px;
+    position: absolute;
+    top: -14px;
+    margin-bottom: 17px;
+    margin-left: -2px;
+      }
+  .timeline li::before{
+    content: counter(step);
+    counter-increment: step ;
+    font-size: 12px;
+    position: absolute;
+    top: -14px;
+    margin-bottom: 17px;
+    margin-left: -2px;
+      }
+</style>
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+      <!-- <ul class="timeline">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+     <div class="slider">
+       <input type="range" min="1" max="5" step="1" value="1">
+     </div> -->
+  <ul class="timeline2">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+     <div class="slider2">
+       <input type="range" min="1" max="5" step="1" value="1">
+     </div>
+
+
+
+  </body>
+  </html>
+
+<script type="text/javascript">
+	
+</script>
